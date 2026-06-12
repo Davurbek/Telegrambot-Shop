@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.4.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.4.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.0-preview.1.25080.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TelegramShopBot.Domain\TelegramShopBot.Domain.csproj" />
+    <ProjectReference Include="..\TelegramShopBot.Data\TelegramShopBot.Data.csproj" />
+  </ItemGroup>
+</Project>
